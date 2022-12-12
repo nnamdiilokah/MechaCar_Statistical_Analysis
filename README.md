@@ -30,6 +30,8 @@ The result of the t-test across all manufactuing lots is shown below:
 According to the results, we have a p-value of 0.06028 which is larger than our assumed significance level of 0.05 percent. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm our samples are not statistically different.
 
 
+
+
 The result of the t-test across for each manufactuing lot (Lot 1, Lot 2 and Lot 3) is shown below:
 
 ![t_test_lots](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/t_test_lots.png)
@@ -38,3 +40,4 @@ Lot 1 and Lot 2 have p-value of 1 and 0.6072 respectively. These values are larg
 On the other hand, Lot 3 has a p-value of 0.04 which is less than our assumed significance level of 0.05 percent. Therefore, we would state that there is enough evidence to reject the null hypothesis and we can confirm our samples are statistically different.
 
 
+## Study Design: MechaCar vs Competition
