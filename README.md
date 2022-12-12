@@ -24,12 +24,14 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 
 The result of the t-test across all manufactuing lots is shown below:
+
 ![one_t_test](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/one_t_test.png)
 
 According to the results, we have a p-value of 0.06028 which is larger than our assumed significance level of 0.05 percent. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm our samples are not statistically different.
 
 
 The result of the t-test across for each manufactuing lot (Lot 1, Lot 2 and Lot 3) is shown below:
+
 ![t_test_lots](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/t_test_lots.png)
 
 Lot 1 and Lot 2 have p-value of 1 and 0.6072 respectively. These values are larger than our assumed significance level of 0.05 percent. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm our samples are not statistically different.
