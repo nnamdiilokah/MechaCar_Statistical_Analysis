@@ -10,3 +10,13 @@ According to the results, the p-value is less than our significance level of 0.0
 
 + **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?** 
 The R-squared value is the coefficient of determination. In this model, we have an R-squared value of 0.7149. This means that our model is a sufficent model to use to predict 71.49% of what determines MechaCar's mpg. This is an effective model. However, the results can be improved upon to achieve a higher R-squared value.
+
+## Summary Statistics on Suspension Coils
+
+The summary statistcs on the suspension coils is shown in the images below:
+
+![total_summary](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+
+![lot_summary](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 1 and Lot 2 are both within design specification as both within the specified range of 100 pounds per square inch . However, Lot 3 displayed most variance and exceeds the manufacturer design specification.
