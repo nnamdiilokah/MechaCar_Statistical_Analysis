@@ -2,14 +2,16 @@
 **Statistical Analysis of Vehicle data using R**
 
 ## Linear Regression to Predict MPG
-+ **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?** 
-Based on the Pr(>|t|) values obtained from the summary statistics of the linear regression model, the Vehicle weight, spoiler angle, and AWD provided us a non-random amount of variance to the mpg values. Ground clearance and vehicle length provided us with the most amount of random variance.
 
-+ **Is the slope of the linear model considered to be zero? Why or why not?** 
-According to the results, the p-value is less than our significance level of 0.05. At such, there is sufficient reason to reject our null hypothesis and the slope of the linear model is not considered to be zero.
+The result of the Linear Regression is shown below:
+![linear_regression](https://github.com/nnamdiilokah/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png)
 
-+ **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?** 
-The R-squared value is the coefficient of determination. In this model, we have an R-squared value of 0.7149. This means that our model is a sufficent model to use to predict 71.49% of what determines MechaCar's mpg. This is an effective model. However, the results can be improved upon to achieve a higher R-squared value.
+
++ Based on the Pr(>|t|) values obtained from the summary statistics of the linear regression model, the Vehicle weight, spoiler angle, and AWD provided us a non-random amount of variance to the mpg values. Ground clearance and vehicle length provided us with the most amount of random variance.
+
++ According to the results, the p-value is less than our significance level of 0.05. At such, there is sufficient reason to reject our null hypothesis and the slope of the linear model is not considered to be zero.
+
++ The R-squared value is the coefficient of determination. In this model, we have an R-squared value of 0.7149. This means that our model is a sufficent model to use to predict 71.49% of what determines MechaCar's mpg. This is an effective model. However, the results can be improved upon to achieve a higher R-squared value.
 
 ## Summary Statistics on Suspension Coils
 
@@ -44,5 +46,5 @@ On the other hand, Lot 3 has a p-value of 0.04 which is less than our assumed si
 
 There are several metrices to be considered when making decision on a vehicle to purchase. These metrices include engine power in horsepower and fuel consumption in miles per gallon (mpg)
 In this study, we will name our competition vehicle “Model P” and compare this vehicle against MechaCar using the aforementioned metrices (engine power and fuel consumption).
-We can establish a null hypothesis stating MechaCar is not different from Model P and our alternative hypthosis would be that MechaCar is statistically different from Model P. I recommend doing statistical analysis using a t-test to obtain test results of the hypothesis. Finally, I would recommend using the correlation matrix and linear regression to predict and establish the relationship between the test metrices.
+We can establish a null hypothesis stating MechaCar is not different from Model P and our alternative hypthosis would be that MechaCar is statistically different from Model P. I recommend doing statistical analysis using a t-test to obtain test results of the hypothesis. Finally, I would recommend using the correlation matrix and linear regression to predict and establish the relationship between the test metrices.git 
 
