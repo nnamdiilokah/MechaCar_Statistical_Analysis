@@ -41,3 +41,8 @@ On the other hand, Lot 3 has a p-value of 0.04 which is less than our assumed si
 
 
 ## Study Design: MechaCar vs Competition
+
+There are several metrices to be considered when making decision on a vehicle to purchase. These metrices include engine power in horsepower and fuel consumption in miles per gallon (mpg)
+In this study, we will name our competition vehicle “Model P” and compare this vehicle against MechaCar using the aforementioned metrices (engine power and fuel consumption).
+We can establish a null hypothesis stating MechaCar is not different from Model P and our alternative hypthosis would be that MechaCar is statistically different from Model P. I recommend doing statistical analysis using a t-test to obtain test results of the hypothesis. Finally, I would recommend using the correlation matrix and linear regression to predict and establish the relationship between the test metrices.
+
